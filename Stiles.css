@@ -1,0 +1,25 @@
+.container {
+
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color:antiquewhite;
+
+}
+.elemnt-form {
+
+    margin-top: 2%;
+}
+div {
+    margin-top: 2%;
+}
+
+.btn-article button {
+
+color: black;
+background-color:#e2b477;
+border-color: #fff;
+margin-top: 30px;
+
+}
+

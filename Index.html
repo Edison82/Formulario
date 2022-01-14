@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario </title>
+    <link   type="text/css" rel="stylesheet" href="Stiles.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Formulario de Ingreso</h1>
+
+        <div>
+            <form>
+                <section class="section-flex">
+
+                    <article class="elemnt-form">
+
+                        <div class="label">
+
+                            <label for="">Sexo</label>
+
+                        </div>
+
+<!-- Este es el checkbox que quiero verificar -->
+                        <input type="checkbox" name="echk2" id="echk2" value = "Masculino"> Masculino
+                        <input type="checkbox" name="echk3" id="echk3" value = "Femenino"> Femenino
+<!-- Y aqui termina -->
+                        <article class="elemnt-form">
+                             <div class="label">
+
+                               <label for="">Nombre</label>
+
+                             </div>
+                                 <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre completo">
+                        </article> 
+
+                        <article class="elemnt-form">
+                            <div class="label">
+
+                              <label for="">Edad</label>
+
+                            </div>
+                                <input min="1" required type="number" name="edad" id="edad" placeholder="Escribe tu Edad">
+                       </article> 
+
+                       <article class="btn-article">
+                        <button type="submit" onclick="validar()"> Enviar Datos </button>                       
+                    </article> 
+
+    </div>
+
+
+    <script type="text/javascript" src = "Function.js"></script>
+
+    
+</body>
+
+</html>
